@@ -11,7 +11,10 @@ const SettingspPage = async () => {
           await signOut()
         }}
       >
-        <button type='submit' className='bg-red-500 text-white px-3 py-1 m-2'>
+        <button
+          type='submit'
+          className='bg-red-500 text-white px-3 py-1 m-2'
+        >
           Sign out
         </button>
       </form>
